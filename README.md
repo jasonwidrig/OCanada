@@ -9,3 +9,5 @@ From there, use the "Launch through EC2" option because that allows you to Auto-
 The install instructions are pretty accurate as far as I remember. They get you through starting up the "Access Server". Currently, to make things work, TLS is disabled in the Admin GUI of the Access Server in the Advanced VPN tab under "TLS Control Channel Security". Get that set, download a config file, yoink the appropriate certs from the config and paste them into the relevant section of the router VPN services tab and you're off to the races.
 
 Router Config JPG in this repo is a snapshot of the setting on the OCanada router used as the OpenVPN client
+
+.bin file is the router config downloaded from the dd-wrt admin panel
